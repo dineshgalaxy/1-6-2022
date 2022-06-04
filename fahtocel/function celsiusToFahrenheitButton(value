@@ -1,0 +1,16 @@
+function celsiusToFahrenheitButton(value, type){ if(value === '') 
+{ console.log("Please enter the value"); }
+else
+ { let convertedValue; type === 'Fahrenheit' ? convertedValue = (value - 32) * 5 / 9 : convertedValue =value * 9 / 5 + 32 console.log(value+' To '+ convertedValue) } } 
+
+
+Write a JavaScript program to display the reading status 
+(i.e. display book name, author name and reading status)
+ of the following books. const library = [
+      { author: 'Bill Gates', title: 'The Road Ahead', readingStatus: true },
+      { author: 'Steve Jobs', title: 'Walter Isaacson', readingStatus: true }, 
+      { author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', readingStatus: false }
+      ];
+
+
+https://app.zeplin.io/project/5a7aa6dc1758f5f3531ecbdf/screen/5d5d364b4718c652357b06bc

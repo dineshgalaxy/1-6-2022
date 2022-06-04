@@ -1,0 +1,23 @@
+.fahToCel{
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 350px;
+    text-align: center;
+    background: darkcyan;
+    padding-top: 50px;
+}
+input{
+    max-width: 100%;
+    width: 400px;
+    min-height: 35px;
+    font-size: 20px;
+}
+button{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 14px;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+}
